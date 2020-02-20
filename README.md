@@ -39,26 +39,26 @@ Here is a demo with 2 players using MCTS playing against each other. Allocated t
 In the next figure we show the distribution of outcomes after we performed 100 games where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are symmetrical with reward(win)=3 and reward(draw)=1. Player 1 is the player to play first while player 2 is the player to play second.
 
 <p align="center"> 
-<img src="img/img_baseline.png" width="60%">
+<img src="img/img_baseline.png" width="50%">
 </p>
 
 In the next figure we show the distribution of outcomes after we performed 100 games where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are asymmetrical with reward(win)=3 and reward(draw)=1 for player 1 (player to play first) and reward(win)=1 and reward(draw)=1 for player 2 (player to play second).
 
 <p align="center"> 
-<img src="img/img_asym.png" width="60%">
+<img src="img/img_asym.png" width="50%">
 </p>
 
 In the next figure we show the distribution of outcomes after we performed 100 games where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are *symmetrical* with reward(win)=1 and reward(draw)=0. Player 1 is the player to play first while player 2 is the player to play second.
 
 <p align="center"> 
-<img src="img/img_no_draw_.png" width="60%">
+<img src="img/img_no_draw_.png" width="50%">
 </p>
 
 
-In the next figure we show the distribution of outcomes after we performed 100 games where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are asymmetrical with reward(win)=1 and reward(draw)=0 for player 1 (player to play first) and reward(win)=1 and reward(draw)=0 for player 2 (player to play second).
+In the next figure we show the distribution of outcomes after we performed 100 games where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are asymmetrical with reward(win)=1 and reward(draw)=0 for player 1 (player to play first) and reward(win)=1 and reward(draw)=1 for player 2 (player to play second).
 
 <p align="center"> 
-<img src="img/img_asym_att_def.png" width="60%">
+<img src="img/img_asym_att_def.png" width="50%">
 </p>
 
 # Conclusion
