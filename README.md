@@ -5,6 +5,6 @@
 
 <img src="img/img_baseline.png" width="60%">
 
-<img src="img/img_no_draw.png" width="60%">
+<img src="img/img_no_draw_.png" width="60%">
 
 <img src="img/img_asym.png" width="60%">
