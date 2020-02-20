@@ -71,6 +71,6 @@ From the previous plots we can make two observations:
 
 - Reward designs performance depend on thinking time.
 
-- Aggressive play is really effective for player 1 when thinking time is low. That is what we observ in speed chess.
+- Aggressive play is effective for player 1 when thinking time is low. That is what we observ in speed chess.
 
 - Playing too safe (looking equally for draw or win) is not optimal for player 2, it is more effective to look more for victory, confirming the popular adage "attack is the better defense".
