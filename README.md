@@ -67,10 +67,10 @@ From the previous plots we can make two observations:
 
 - The more thinking time the higher chance the game outcome will be a draw
 
--
+- The more thinking time the lower chance for player 2 to win
 
 - Reward designs performance depend on thinking time
 
 - Aggressive play is rewarded for player 1 when thinking time is low
 
-- Looking for a draw   
+- Playing too safe is not  
