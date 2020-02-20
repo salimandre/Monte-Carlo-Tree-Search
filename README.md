@@ -20,6 +20,8 @@ In our MCTS we used the following features:
 
 * roll out simulations we performed by using random uniform policy
 
+* we used different symmetrical and asymmetrical reward designs
+
 # Results
 
 We implemented Monte Carlo Tree Search with 
