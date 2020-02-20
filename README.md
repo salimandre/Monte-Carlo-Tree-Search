@@ -55,3 +55,10 @@ In the next figure we show the distribution of outcomes after we performed 100 g
 <p align="center"> 
 <img src="img/img_asym.png" width="60%">
 </p>
+
+# Conclusion
+
+From the previous plots we can make two observations: 
+- First, the reward design reward(win)=3 and reward(1)=1 is to be the best reward of the three for the second player. Basically it says that in order to defend better you need also to attack and look for victory.
+
+- Second, the best reward strategy for the first player depends on the thinking time. If thinking time is low < 0.1s then the best reward design is reward(win)=1 and reward(draw)=0 meaning that aggressive but risky strategies are effective while little time to think. This is in fact what we observ in speed chess. Also we actually could observ that with reward design focusing on victory only MCTS converge faster towards picking the center first. When thinking time is higher > 0.1s then  
