@@ -15,7 +15,7 @@ At each turn do:
 In our MCTS we used the following features:
 * we used the following UCB formula with c = 1.4 :
 <p align="center"> 
-<img src="img/demo_0-1s-3-1.gif" width="25%">
+<img src="img/ucb.png" width="25%">
 </p>
 * roll out simulations we performed by using random uniform policy
 
