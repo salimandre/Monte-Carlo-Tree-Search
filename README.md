@@ -1,8 +1,8 @@
 # Monte Carlo Tree Search
 
-We implemented a Monte Carlo Tree Search (MCTS) from scratch and we successfully applied it to Tic-Tac-Toe game. 
+We implemented a **Monte Carlo Tree Search (MCTS)** from scratch and we successfully applied it to ***Tic-Tac-Toe game**. 
 
-We performed tests using different allocated time to build MCTS (thinking time). We also could test several symmetrical and asymmetrical reward designs.
+We performed tests using **different allocated time** to build MCTS (thinking time). We also could test several **symmetrical** and **asymmetrical reward designs**.
 
 Summary of steps of MCTS model:
 
@@ -14,7 +14,7 @@ Summary of steps of MCTS model:
     * evaluate new state by roll out simulations
     * backpropagate from leaf to the root by updating visit count and reward at each node of the path
 
-In our MCTS we used the following features:
+In our MCTS we used the following **features**:
 * we used the following UCB for trees (UCT) formula with c = 1.4 :
 <p align="center"> 
 <img src="img/ucb.png" width="25%">
