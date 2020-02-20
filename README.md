@@ -75,4 +75,4 @@ From the previous plots we can make two observations:
 
 - Playing too safe (looking equally for draw or win) is not optimal for player 2, it is more effective to look more for victory, confirming the popular adage "attack is the better defense".
 
-- Reward design
+- Reward design with reward(win)=3 and reward(draw)=1 seems to produce solid play for both player 1 and player 2
