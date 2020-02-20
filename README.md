@@ -20,7 +20,7 @@ In our MCTS we used the following features:
 
 * roll out simulations we performed by using random uniform policy
 
-* we used different symmetrical and asymmetrical reward designs
+* we tested different symmetrical and asymmetrical reward designs
 
 # Results
 
