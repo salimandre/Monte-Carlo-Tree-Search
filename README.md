@@ -65,12 +65,12 @@ In the next figure we show the distribution of outcomes after we performed 100 g
 
 From the previous plots we can make two observations: 
 
-- The more thinking time the higher chance the game outcome will be a draw
+- The more thinking time the higher chance the game outcome will be a draw.
 
-- The more thinking time the lower chance for player 2 to win
+- The more thinking time the lower chance for player 2 to win.
 
-- Reward designs performance depend on thinking time
+- Reward designs performance depend on thinking time.
 
-- Aggressive play is rewarded for player 1 when thinking time is low
+- Aggressive play is rewarded for player 1 when thinking time is low. That is what we observ in speed chess.
 
-- Playing too safe is not  
+- Playing too safe (looking equally for draw or win) is not optimal for player 2, it is more effective to look more for victory, confirming the popular adage "attack is the better defense".
