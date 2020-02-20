@@ -4,8 +4,8 @@ We implemented a Monte Carlo Tree Search (MCTS) from scratch and we successfully
 
 Summary of steps of MCTS model:
 
-At each turn do:
-  during a time T, repeat the following steps:
+* At each turn do:
+  * during a time T, repeat the following steps:
     * create a Tree (root) where each node is associated to a state of game
     * select a leaf by UCB exploration
     * create a child node from this leaf
@@ -17,6 +17,7 @@ In our MCTS we used the following features:
 <p align="center"> 
 <img src="img/ucb.png" width="25%">
 </p>
+
 * roll out simulations we performed by using random uniform policy
 
 # Results
