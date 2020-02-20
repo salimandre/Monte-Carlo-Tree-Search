@@ -24,38 +24,38 @@ In our MCTS we used the following features:
 
 # Results
 
-Here is a demo with 2 players using MCTS playing against each other. Allocated thinking time is 0.1s. Reward designs are symmetrical with reward(win)=3 and reward(draw)=1.
+Here is a demo with 2 players using MCTS playing against each other. Allocated thinking time is **0.1s**. Reward designs are **symmetrical** with **reward(win)=3** and **reward(draw)=1**.
 
 <p align="center"> 
 <img src="img/demo_0-1s-3-1.gif" width="25%">
 </p>
 
-Here is a demo with 2 players using MCTS playing against each other. Allocated thinking time is 0.3s. Reward designs are symmetrical with reward(win)=3 and reward(draw)=1.
+Here is a demo with 2 players using MCTS playing against each other. Allocated thinking time is **0.3s**. Reward designs are **symmetrical** with **reward(win)=3** and **reward(draw)=1**.
 
 <p align="center"> 
 <img src="img/demo_0-3s-3-1.gif" width="25%">
 </p>
 
-In the next figure we show the distribution of outcomes after we performed 100 games where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are symmetrical with reward(win)=3 and reward(draw)=1. Player 1 is the player to play first while player 2 is the player to play second.
+In the next figure we show the distribution of outcomes after we performed 100 games where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are **symmetrical** with **reward(win)=3** and **reward(draw)=1**. Player 1 is the player to play first while player 2 is the player to play second.
 
 <p align="center"> 
 <img src="img/img_baseline.png" width="50%">
 </p>
 
-In the next figure we show the distribution of outcomes after we performed 100 games where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are asymmetrical with reward(win)=3 and reward(draw)=1 for player 1 (player to play first) and reward(win)=1 and reward(draw)=1 for player 2 (player to play second).
+In the next figure we show the distribution of outcomes after we performed 100 games where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are **asymmetrical** with **reward_1(win)=3** and **reward_1(draw)=1** for player 1 (player to play first) and **reward_2(win)=1** and **reward_2(draw)=1** for player 2 (player to play second).
 
 <p align="center"> 
 <img src="img/img_asym.png" width="50%">
 </p>
 
-In the next figure we show the distribution of outcomes after we performed 100 games where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are *symmetrical* with reward(win)=1 and reward(draw)=0. Player 1 is the player to play first while player 2 is the player to play second.
+In the next figure we show the distribution of outcomes after we performed 100 games where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are **symmetrical** with **reward(win)=1** and **reward(draw)=0**. Player 1 is the player to play first while player 2 is the player to play second.
 
 <p align="center"> 
 <img src="img/img_no_draw_.png" width="50%">
 </p>
 
 
-In the next figure we show the distribution of outcomes after we performed 100 games where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are asymmetrical with reward(win)=1 and reward(draw)=0 for player 1 (player to play first) and reward(win)=1 and reward(draw)=1 for player 2 (player to play second).
+In the next figure we show the distribution of outcomes after we performed 100 games where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are **asymmetrical** with **reward_1(win)=1** and **reward_1(draw)=0** for player 1 (player to play first) and **reward_2(win)=1** and **reward_2(draw)=1** for player 2 (player to play second).
 
 <p align="center"> 
 <img src="img/img_asym_att_def.png" width="50%">
@@ -64,6 +64,9 @@ In the next figure we show the distribution of outcomes after we performed 100 g
 # Conclusion
 
 From the previous plots we can make two observations: 
-- First, the reward design reward(win)=3 and reward(1)=1 is to be the best reward of the three for the second player. Basically it says that in order to defend better you need also to attack and look for victory.
 
-- Second, the best reward strategy for the first player is to focus on victory. If thinking time is low < 0.1s then the best reward design is reward(win)=1 and reward(draw)=0 meaning that aggressive but risky strategies are effective while little time to think. This is in fact what we observ in speed chess. Also we actually could observ that with reward design focusing on victory only MCTS converge faster towards picking the center first. When thinking time is higher > 0.1s then  
+- Reward designs performance depend on thinking time
+
+- Aggressive play is rewarded for player 1 when thinking time is low
+
+- Looking for a draw   
