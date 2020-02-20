@@ -13,7 +13,7 @@ At each turn do:
     * backpropagate from leaf to the root by updating visit count and reward at each node of the path
 
 In our MCTS we used the following features:
-* we used the following UCB formula with c = 1.4 :
+* we used the following UCB for trees (UCT) formula with c = 1.4 :
 <p align="center"> 
 <img src="img/ucb.png" width="25%">
 </p>
