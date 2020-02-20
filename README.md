@@ -65,6 +65,10 @@ In the next figure we show the distribution of outcomes after we performed 100 g
 
 From the previous plots we can make two observations: 
 
+- The more thinking time the higher chance the game outcome will be a draw
+
+-
+
 - Reward designs performance depend on thinking time
 
 - Aggressive play is rewarded for player 1 when thinking time is low
