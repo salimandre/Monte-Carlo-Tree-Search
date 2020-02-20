@@ -24,18 +24,27 @@ In our MCTS we used the following features:
 
 # Results
 
-We implemented Monte Carlo Tree Search with 
+Here is a demo with 2 players using MCTS play against each other. Allocated thinking time is 0.1s. Reward designs are symmetrical with reward(win)=3 and reward(draw)=1.
+
 <p align="center"> 
 <img src="img/demo_0-1s-3-1.gif" width="25%">
 </p>
+
+In the next figure we show the distribution of outcomes after we performed 100 game where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are symmetrical with reward(win)=3 and reward(draw)=1. Player 1 is the player to play first while player 2 is the player to play second.
 
 <p align="center"> 
 <img src="img/img_baseline.png" width="60%">
 </p>
 
+
+In the next figure we show the distribution of outcomes after we performed 100 game where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are symmetrical with reward(win)=1 and reward(draw)=0. Player 1 is the player to play first while player 2 is the player to play second.
+
 <p align="center"> 
 <img src="img/img_no_draw_.png" width="60%">
 </p>
+
+
+In the next figure we show the distribution of outcomes after we performed 100 game where we vary the allocated thinking time from 0.01s to 0.2s. Reward designs are asymmetrical with reward(win)=3 and reward(draw)=1 for player 1 (player to play first) and reward(win)=1 and reward(draw)=1 for player 2 (player to play second).
 
 <p align="center"> 
 <img src="img/img_asym.png" width="60%">
