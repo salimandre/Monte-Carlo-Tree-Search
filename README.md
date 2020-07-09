@@ -24,13 +24,13 @@ In our MCTS we used the following **features**:
 
 # Results
 
-Here is a demo with 2 players using MCTS playing against each other. Allocated thinking time is **0.1s**. Reward designs are **symmetrical** with **reward(win)=3** and **reward(draw)=1**.
+Here is a demo with 2 machines using MCTS playing against each other. Allocated thinking time is **0.1s**. Reward designs are **symmetrical** with **reward(win)=3** and **reward(draw)=1**.
 
 <p align="center"> 
 <img src="img/demo_0-1s-3-1.gif" width="25%">
 </p>
 
-Here is a demo with 2 players using MCTS playing against each other. Allocated thinking time is **0.3s**. Reward designs are **symmetrical** with **reward(win)=3** and **reward(draw)=1**.
+Here is a demo with 2 machines using MCTS playing against each other. Allocated thinking time is **0.3s**. Reward designs are **symmetrical** with **reward(win)=3** and **reward(draw)=1**.
 
 <p align="center"> 
 <img src="img/demo_0-3s-3-1.gif" width="25%">
